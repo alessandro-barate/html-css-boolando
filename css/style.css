@@ -56,22 +56,37 @@ li {
     padding-bottom: 10px;
 }
 
+.col-33-img {
+    width: calc(100% / 3 - 10px);
+}
+
 .align-end {
     text-align: end;
 }
 
 .wrap {
     flex-wrap: wrap;
+    gap: 10px;
 }
 
-.bg-red {
-    background-color: red;
+.list {
+    width: 100%;
+    object-fit: contain;
 }
 
 .margin {
     margin-top: 30px;
 }
 
-.img-fit {
-    object-fit: contain;
+.boldness {
+    font-weight: bold;
 }
+
+.red-text {
+    color: red;
+}
+
+.text-line {
+    text-decoration: line-through;
+}
+
