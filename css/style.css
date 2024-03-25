@@ -9,8 +9,11 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: rgb(255, 123, 0);
     box-shadow: 0 2px rgb(170, 170, 170);
+    position: fixed;
+    z-index: 1;
 }
 
 footer {
@@ -30,7 +33,6 @@ footer {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 li {
@@ -76,7 +78,22 @@ li {
     gap: 10px;
 }
 
-.list {
+.object {
+    width: 100%;
+    object-fit: contain;
+}
+
+.object-hidden {
+    width: 100%;
+    display: none;
+}
+
+.object:hover {
+    display: none;
+}
+
+.object-hidden:hover {
+    display: block;
     width: 100%;
     object-fit: contain;
 }
@@ -104,5 +121,9 @@ li {
 
 .margin-right {
     margin-right: 5px;
+}
+
+.font-size {
+    font-size: 11px;
 }
 
