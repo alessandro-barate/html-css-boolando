@@ -94,25 +94,6 @@ li {
     gap: 10px;
 }
 
-.object {
-    width: 100%;
-    object-fit: contain;
-}
-
-.object-hidden {
-    display: none;
-}
-
-.object-hidden:hover {
-    display: block;
-    width: 100%;
-    object-fit: contain;
-}
-
-.object:hover {
-    display: none;
-}
-
 .margin-top {
     margin-top: 80px;
 }
@@ -188,5 +169,25 @@ li > a {
     cursor: pointer;
 }
 
+/*  HOVER EVENT  */
+.object {
+    width: 100%;
+    object-fit: contain;
+}
+
+.object-hidden {
+    display: none;
+}
+
+.content:hover .object-hidden{
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.content:hover .object{
+    display: none;
+}
+/*  /HOVER EVENT  */
 
 
