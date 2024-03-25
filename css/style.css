@@ -3,3 +3,75 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 123, 0);
+    box-shadow: 0 2px rgb(170, 170, 170);
+}
+
+.logo-header {
+    text-align: center;
+}
+
+.logo-header > img {
+    width: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.img-fit {
+    object-fit: contain;
+}
