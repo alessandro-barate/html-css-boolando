@@ -31,6 +31,22 @@ header {
 
 /*  /HEADER  */
 
+/*  OBJECTS MAIN LIST  */
+.heart {
+    position: absolute;
+    width: 5%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-style: none;
+}
+
+.heart:hover {
+    color: red;
+    cursor: pointer;
+}
+/*  /OBJECTS MAIN LIST  */
+
 /*  FOOTER  */
 footer {
     background-color: black;
@@ -44,34 +60,36 @@ footer {
 }
 /*  /FOOTER  */
 
-
-
-
+/*  UTILITY TEXTS  */
 a {
     text-decoration: none;
 }
 
-li {
-    display: inline;
-    list-style-type: none;
-    font-size: 13px;
+.font-size {
+    font-size: 11px;
 }
 
+.red-text {
+    color: red;
+}
+
+.align-end {
+    text-align: end;
+}
+
+.text-line {
+    text-decoration: line-through;
+}
+
+.boldness {
+    font-weight: bold;
+}
+/*  /UTILITY TEXTS  */
+
+/*  CONTAINERS  */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-.d-flex {
-    display: flex;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.space-between {
-    justify-content: space-between;
 }
 
 .col-33 {
@@ -85,25 +103,20 @@ li {
     position: relative;
 }
 
-.align-end {
-    text-align: end;
+.positioned-boxes {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    padding: 5px;
+    color: white;
 }
+/*  /CONTAINERS  */
 
-.wrap {
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.margin-top {
-    margin-top: 80px;
-}
-
-.red-text {
-    color: red;
-}
-
-.text-line {
-    text-decoration: line-through;
+/*  LISTS */
+li {
+    display: inline;
+    list-style-type: none;
+    font-size: 13px;
 }
 
 .white-text {
@@ -114,11 +127,9 @@ li {
 li > a {
     margin-right: 15px;
 }
+/*  /LISTS  */
 
-.font-size {
-    font-size: 11px;
-}
-
+/*  UTILITY COLORS  */
 .bg-red {
     background-color: red;
 }
@@ -130,17 +141,24 @@ li > a {
 .bg-white {
     background-color: white;
 }
+/*  /UTILITY COLORS  */
 
-.boldness {
-    font-weight: bold;
+/*  UTILITY SPACING  */
+.d-flex {
+    display: flex;
 }
 
-.positioned-boxes {
-    position: absolute;
-    bottom: 100px;
-    text-align: center;
-    padding: 5px;
-    color: white;
+.wrap {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 .left-position {
@@ -155,21 +173,12 @@ li > a {
     top: 5px;
 }
 
-.heart {
-    position: absolute;
-    width: 5%;
-    text-align: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    border-style: none;
+.margin-top {
+    margin-top: 80px;
 }
+/*  /UTILITY SPACING  */
 
-.heart:hover {
-    color: red;
-    cursor: pointer;
-}
-
-/*  HOVER EVENT  */
+/*  HOVER EVENTS  */
 .object {
     width: 100%;
     object-fit: contain;
@@ -179,7 +188,7 @@ li > a {
     display: none;
 }
 
-.content:hover .object-hidden{
+.content:hover .object-hidden {
     display: block;
     width: 100%;
     object-fit: contain;
@@ -188,6 +197,16 @@ li > a {
 .content:hover .object{
     display: none;
 }
-/*  /HOVER EVENT  */
+
+.heart:hover .content.object {
+    display: none;
+}
+
+.heart:hover .content.object-hidden {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+/*  /HOVER EVENTS  */
 
 
