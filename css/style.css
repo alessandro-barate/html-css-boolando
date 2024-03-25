@@ -13,6 +13,13 @@ header {
     box-shadow: 0 2px rgb(170, 170, 170);
 }
 
+footer {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
 .logo-header {
     text-align: center;
 }
@@ -74,7 +81,7 @@ li {
     object-fit: contain;
 }
 
-.margin {
+.margin-top {
     margin-top: 30px;
 }
 
@@ -88,5 +95,14 @@ li {
 
 .text-line {
     text-decoration: line-through;
+}
+
+.white-text {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.margin-right {
+    margin-right: 5px;
 }
 
