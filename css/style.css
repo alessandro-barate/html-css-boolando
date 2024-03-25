@@ -40,7 +40,6 @@ li {
     display: inline;
     list-style-type: none;
     font-size: 13px;
-    font-weight: bold;
 }
 
 .container {
@@ -68,6 +67,7 @@ li {
 
 .col-33-img {
     width: calc(100% / 3 - 10px);
+    position: relative;
 }
 
 .align-end {
@@ -99,11 +99,7 @@ li {
 }
 
 .margin-top {
-    margin-top: 30px;
-}
-
-.boldness {
-    font-weight: bold;
+    margin-top: 80px;
 }
 
 .red-text {
@@ -119,11 +115,63 @@ li {
     margin-bottom: 5px;
 }
 
+.col-33 > ul {
+
+}
+
 li > a {
     margin-right: 15px;
 }
 
 .font-size {
     font-size: 11px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.boldness {
+    font-weight: bold;
+}
+
+.positioned-boxes {
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.left-position {
+    left: 55px;
+}
+
+.right-position {
+    right: 0;
+}
+
+.top-position {
+    top: 5px;
+}
+
+.heart {
+    position: absolute;
+    width: 5%;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.socials-list > a {
+    margin-right: 2px;
 }
 
