@@ -124,8 +124,9 @@ li {
     margin-bottom: 5px;
 }
 
-li > a {
-    margin-right: 15px;
+.logo {
+    width: 3%;
+    margin-right: 5px;
 }
 /*  /LISTS  */
 
@@ -175,6 +176,10 @@ li > a {
 
 .margin-top {
     margin-top: 80px;
+}
+
+.margin-right {
+    margin-right: 15px;
 }
 /*  /UTILITY SPACING  */
 
