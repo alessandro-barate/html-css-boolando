@@ -40,11 +40,6 @@ header {
     padding-bottom: 2px;
     border-style: none;
 }
-
-.heart:hover {
-    color: red;
-    cursor: pointer;
-}
 /*  /OBJECTS MAIN LIST  */
 
 /*  FOOTER  */
@@ -203,15 +198,8 @@ li {
     display: none;
 }
 
-.heart:hover .content.object {
-    display: none;
-}
-
-.heart:hover .content.object-hidden {
-    display: inline-block;
-    width: 100%;
-    object-fit: contain;
+.heart:hover {
+    color: red;
+    cursor: pointer;
 }
 /*  /HOVER EVENTS  */
-
-
