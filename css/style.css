@@ -194,7 +194,7 @@ li {
 }
 
 .content:hover .object-hidden {
-    display: block;
+    display: inline-block;
     width: 100%;
     object-fit: contain;
 }
@@ -208,7 +208,7 @@ li {
 }
 
 .heart:hover .content.object-hidden {
-    display: block;
+    display: inline-block;
     width: 100%;
     object-fit: contain;
 }
